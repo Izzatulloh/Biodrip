@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/priloader.css">
     <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="./style/animate.css">
     <link rel="stylesheet" href="./style/swiper-bundle.min.css" />
@@ -17,9 +18,14 @@
 </head>
 
 <body>
-    <div class="map-wrapper ">
-        <div id="map"></div>
+    
+<div class="load" id="priloader">
+    <div class="priloader " >
+        <h1 class="title">Loading</h1>
+    <div class="rainbow-marker-loader"></div>
     </div>
+</div>
+   
     <header class="header" id="header">
         <div class="fixed__nav ">
             <div class="container ">
@@ -307,12 +313,16 @@
             </div>
         </section>
     </main>
+    <div class="map-wrapper ">
+        <div id="map"></div>
+    </div>
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGhMCJ69HR9zEhLWF-NnnO-YFgaXTWxYA&amp;callback=initMap&amp;libraries=&amp;v=weekly"
         defer="">
     </script>
     <script src="./script/map.js"></script>
     <script src="./script/jquery.js"></script>
+    <script src="./script/menu.js"></script>
     <script src="./script/popper.js"></script>
     <script src="./script/wow.min.js"></script>
     <script>
@@ -323,7 +333,7 @@
 
     <script src="./script/scroll.js"></script>
     <script src="script/script.js"></script>
-    <script src="./script/menu.js"></script>
+   
    
 
 </body>
