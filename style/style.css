@@ -15,11 +15,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 body {
     padding: 0;
-overflow-x: hidden; 
+    overflow-x: hidden; 
 }
 body.active{
     overflow: hidden;
