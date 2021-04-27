@@ -105,7 +105,6 @@ a {
     position: fixed;
     width: 100%;
     z-index: 999;
-    backdrop-filter: blur(3px);
 }
 
 .header__nav {
@@ -485,6 +484,9 @@ a {
 .map {
     height: 100%;
     
+}
+.map-logo{
+    width: 150px;
 }
 
 .btn {

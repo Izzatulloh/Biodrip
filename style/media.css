@@ -81,6 +81,9 @@
     .burger{
         left: 90%;
     }
+    .map-logo{
+        width: 100px;
+    }
 }
 @media(max-width:576px){
     .footer__info{
