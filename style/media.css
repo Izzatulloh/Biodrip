@@ -55,7 +55,7 @@
     .map{
         width: 100%;
     }
-    .map__info{
+    .map-wrapper{
         margin-top: 30px;
         width: 100%;
     }

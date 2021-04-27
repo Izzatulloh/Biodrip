@@ -4,7 +4,7 @@ var map;
 function initMap() {
 
     // Создаем наполнение для информационного окна
-    var contentString = '<div class="d-flex flex-column" id="content">'+'<img class="map-logo" src="images/Logo.png"></img>'+ '<a class="tel"href="tel:998933781738">+998(93) 378-17-38</a>'+'</div>';
+    var contentString = '<div class="d-flex flex-column" id="content">'+'<img class="map-logo" src="./images/Logo.png"></img>'+'</div>';
 
 
     // В переменной map создаем объект карты GoogleMaps и вешаем эту переменную на <+ id="map"></+>

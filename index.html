@@ -279,9 +279,9 @@
                         </form>
                     </div>
                     <div class="map wow animated fadeInRight">
-                        <iframe class="map__info"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11980.20199295381!2d69.244933!3d41.3512561!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x14d25fba3efbcb8d!2sbiodrip!5e0!3m2!1sru!2s!4v1619247122241!5m2!1sru!2s"
-                            width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <div class="map-wrapper ">
+                            <div id="map"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -313,9 +313,7 @@
             </div>
         </section>
     </main>
-    <div class="map-wrapper ">
-        <div id="map"></div>
-    </div>
+  
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGhMCJ69HR9zEhLWF-NnnO-YFgaXTWxYA&amp;callback=initMap&amp;libraries=&amp;v=weekly"
         defer="">
